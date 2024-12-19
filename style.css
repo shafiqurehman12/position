@@ -1,0 +1,58 @@
+.box{
+    background-color: aqua;
+    height: 1000px;
+}
+.boxes{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    display: inline-block;
+}
+/* #boxx{
+position: relative;
+left: 50px;
+top: 10px;
+background-color: red;
+
+} */
+/* #boxx{
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    background-color: red;
+    
+}     */
+/* #boxx{
+    position: fixed;
+    right: 50vw;
+    top: 250px;
+    background-color: red;
+    
+}  */
+/* #boxx{
+    position: sticky;
+    top: 0;
+    background-color: red;
+    
+}  */
+/* position */
+/* static
+ratlative 
+absolute
+fixed
+sticky */
+#boxx{
+    background: red;
+    /* transition-property: background-color;
+    transition-duration: 2s;
+    transition-property: height; */
+    
+    transition:all 3s ease-in-out
+    
+} 
+#boxx:hover{
+    background-color: blueviolet;
+    height: 200px;
+    /* transform: skewX(20deg); */
+}
